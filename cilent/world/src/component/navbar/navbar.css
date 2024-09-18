@@ -1,0 +1,48 @@
+.nav-color{
+    height: 70px;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 1;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 20px;
+    position: fixed;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-brand{
+    padding: 0px 0px 0px 70px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.nav-menu{
+    display: flex;
+    align-content: center;
+    gap: 13px;
+    padding: 0px 70px 0px 0px;
+    font-size: 20px;
+    list-style: none;
+    transition: all linear;
+}
+.nav-menu:hover{
+     color: black;
+}
+.custom{
+    padding: 15px 0px 0px 0px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+}
+.custom-menu{
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    font-size: 23px;
+    transition: 0.4s linear;
+}
+.custom-menu:hover{
+    color: black;
+}
